@@ -1,5 +1,5 @@
-print ("Welcome to the Band Name")
+print ("Welcome to the Band Name Generator.")
 
-city = input ("Wheres did you born? ")
-pet = input ("whats your pet's name? ")
-print (f"your band name is: {city} {pet} !!")
+city = input ("What's the name of the city you grew up in? \n")
+pet = input ("What's your pet's name? \n")
+print (f"your band name could be: {city} {pet} ")
