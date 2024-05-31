@@ -47,7 +47,7 @@ print(3 * (3 + 3) / 3 - 3) #3
 
 ## datas type exercise
 
- number = input("Type the number:")
- number1 = int(number[0])
- number2 = int(number[1])
- print(number1+number2)80
+number = input("Type the number:")
+number1 = int(number[0])
+number2 = int(number[1])
+print(number1+number2)
