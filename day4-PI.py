@@ -6,6 +6,6 @@ print(random_integer)
 print(pi)
 
 
-random_float = random.random()
+random_float = random.random() * 5
 print(random_float)
 print(random.uniform(0, 5)) 

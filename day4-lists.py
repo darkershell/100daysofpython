@@ -15,5 +15,16 @@ states_of_america = ["Delaware", "Pennsylvania", "New Jersey",
 
 
 states_of_america.append("Manaus")
+states_of_america[1] = "Pencilvania"
+states_of_america.extend(["RichardLand", "Borba", "Parintins"])
+
+
+
+#dirty_dozen = ["strawberries", "Spinach", "Kale", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears", "Tomatoes", "Celery", "Potatoes"]
+fruits = ["strawberries", "Nectarines", "Apples", "Grapes", "Peaches", "Cherries", "Pears"]
+vegetables = ["Spinach", "Kale","Tomatoes", "Celery", "Potatoes"]
+
+dirty_dozen = [fruits, vegetables]
+print(dirty_dozen)
 
 print(states_of_america)
